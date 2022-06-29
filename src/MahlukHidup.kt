@@ -7,6 +7,10 @@ interface MahlukHidup { //hanya bisa modififer public dan private
 
 class Manusia : MahlukHidup { // abstraction concept
 
+    constructor(name: String){
+        this.nama = nama
+    }
+
     private var nama: String = "" //hanya bisa diakses dalam satu class yang sama
 
     fun tulisNama(){
@@ -35,6 +39,10 @@ class Manusia : MahlukHidup { // abstraction concept
 }
 
 class Tumbuhan : MahlukHidup {
+
+    constructor(jumlahDaun: Int){
+        this.jumlahDaun = jumlahDaun
+    }
 
     private var jumlahDaun: Int = 0
 
