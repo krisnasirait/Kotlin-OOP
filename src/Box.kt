@@ -1,8 +1,8 @@
 class Box { //class declaration
     //properties (val immutable, var mutable)
-    val length: Int = 10
-    val width: Int = 20
-    val height: Int = 5
+    var length: Int = 10
+    var width: Int = 20
+    var height: Int = 5
 
     //behaviors 1
     fun fillContents(){
