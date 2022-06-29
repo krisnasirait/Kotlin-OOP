@@ -4,16 +4,18 @@ class Box { //class declaration
     var width: Int = 20
     var height: Int = 5
 
-//        var x: Int
-//    get() = 10
-//    set(value){
-//        field = value
-//    }
-
     //getters can be initialized using val
     //val properties can't have a val
     val volume
     get() = length * width * height
+
+    //visibility modifiers or class modifiers
+    /*
+    * public : Default, can be accessed everywhere
+    * internal : Available everywhere in the same module
+    * private : Available only inside the conatining file or class\
+    * protected : Same as private but available inside subclassed or child classes
+    * */
 
 
     //setters initialized using var
